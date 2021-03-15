@@ -1,0 +1,30 @@
+{
+  "name": "Questionario-responsivo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env node --detectOpenHandles",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanferreira33/Questionario-responsivo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanferreira33/Questionario-responsivo/issues"
+  },
+  "homepage": "https://github.com/jonathanferreira33/Questionario-responsivo#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.12.0",
+    "pg-promise": "^10.9.5"
+  },
+  "description": ""
+}

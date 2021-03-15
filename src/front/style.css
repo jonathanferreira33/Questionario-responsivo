@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,700;1,300&display=swap');
+
+:root {
+    background-color: #D3D3D3;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1{
+    text-align: center;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    padding: 20px 10px;
+    border: 1px solid rgb(85, 0, 115);
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(85, 0, 115);
+    color: #fff;
+    margin: 15px 0;
+    font-size: 1.5rem;
+    transition: all 0.7s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(85, 0, 115);
+    transition: all 0.4s;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(84, 0, 115, 0.363);
+    transform: scale(1.02);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
